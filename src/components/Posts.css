@@ -1,0 +1,85 @@
+.views{
+ margin-left: 30rem;
+}
+.wrp{
+    margin-left: 38rem;
+}
+.dots{
+    margin-left: 45rem;
+    margin-top: -5rem;
+}
+.dropdown-content{
+    margin-left: 80%;
+    display: block;
+    box-shadow: 2px 2px 2px 2px rgb(146, 145, 145);
+    background-color: rgb(160, 160, 160);
+    position: absolute;
+    z-index: 1;
+}
+.card{
+    width: 90%;
+    margin-left: 2rem;
+}
+.search-input{
+        border-bottom: 2px solid rgb(46, 45, 45);
+        height: 3rem;
+        font-size: 20px;
+}
+.search-input:focus {
+    outline: none; 
+    border-bottom: 2px solid #080808; 
+  }
+
+
+/* for tablet screen */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .card{
+       margin: 2.5rem;
+    }
+    .wrp{
+        margin-left: 18rem;
+    }
+    .views{
+        margin-left: 30rem;
+       }
+       div.filter{
+        display:none;
+     }
+     .dots{
+        margin-left: 48rem;
+     }
+     .dropdown-content{
+        margin-left: 87%
+     }
+     .search-input{
+        display: none;
+     }
+}
+
+/* for mobile view */
+@media (max-width: 767px) {
+    .card{
+        margin: 1rem;
+     }
+    .wrp{
+        margin-left: 0rem;
+    }
+     div.filter{
+        display: none;
+     }
+    .views{
+        margin-left: 5rem;
+        }
+        .dots{
+            margin-left: 18rem;
+         }
+         .dropdown-content{
+            margin-left: 75%;
+         }
+         .search-input{ 
+             display: none; 
+            }
+}
+.card{
+    box-shadow: 2px 2px 2px 2px rgb(146, 145, 145);
+}

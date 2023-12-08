@@ -1,0 +1,23 @@
+.image-bar {
+    position: relative;
+    height: 400px; /* Set the desired height for your image bar */
+    background-image: url('/public//Rectangle\ 2.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Set the text color */
+    text-align:center ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: 700;
+  }
+  
+  .overlay-text {
+    margin: 0;
+    font-size: 24px; /* Set the font size for the overlay text */
+  }

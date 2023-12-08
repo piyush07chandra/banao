@@ -1,0 +1,22 @@
+.create-act{
+    margin-left: 15rem;
+}
+
+.form{
+    margin-left: 16rem;
+}
+.nav{
+    overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+}
+
+@media (max-width: 767px) {
+    .create-act{
+        margin-left: 0%;
+    }
+    .form{
+        margin-left: 0rem;
+    }
+}
