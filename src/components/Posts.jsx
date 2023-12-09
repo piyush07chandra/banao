@@ -78,8 +78,8 @@ const Posts = () => {
             </ul>
 
             <div className='wrp flex'>
-                <button className='bg-gray-200 rounded-md p-2 flex'>write a Post<img className='ml-2 mt-2' src='/public/btnvctr.png'/></button>
-                <button className='bg-blue-500 text-white rounded-md ml-4 p-2 flex'><img className='mr-2 mt-1' src='/public/btnvctr2.png'/>Join Group</button>
+                <button className='bg-gray-200 rounded-md p-2 flex'>write a Post<img className='ml-2 mt-2' src='/btnvctr.png'/></button>
+                <button className='bg-blue-500 text-white rounded-md ml-4 p-2 flex'><img className='mr-2 mt-1' src='/btnvctr2.png'/>Join Group</button>
             </div>
             </div>
 
@@ -93,7 +93,7 @@ const Posts = () => {
       <Card.Body>
        <img src={image.img2}/> 
        
-       <Card.Text className='text-2xl text-black'>{image.firstText}</Card.Text><button onClick={toggleDropdown} className='dots'><img className=' hover:bg-slate-300' src='/public/baseline-more_vert-24px.png'/></button>
+       <Card.Text className='text-2xl text-black'>{image.firstText}</Card.Text><button onClick={toggleDropdown} className='dots'><img className=' hover:bg-slate-300' src='/baseline-more_vert-24px.png'/></button>
       {isDropdownOpen && (
         <div className="dropdown-content text-center">
           <a className='hover:bg-white' href="#">Edit</a><br/>

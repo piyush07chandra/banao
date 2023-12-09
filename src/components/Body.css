@@ -1,7 +1,7 @@
 .image-bar {
     position: relative;
     height: 400px; /* Set the desired height for your image bar */
-    background-image: url('/public//Rectangle\ 2.png');
+    background-image: url('/Rectangle 2.png');
     background-size: cover;
     background-position: center;
     color: #fff; /* Set the text color */
