@@ -14,7 +14,7 @@ const Signlogin = () => {
   return (
     <>
         {isLoggedIn?(
-      <div className=" flex mt-24 ml-60 mr-60 bg-white text-white pb-4">          
+      <div className=" flex mt-24 ml-60 mr-60 bg-gray-100 text-white pb-4">          
           <div className='ml-9'>
           {/* Close button */}
             <form className='mt-14' >
@@ -30,7 +30,7 @@ const Signlogin = () => {
       )
       :
       (
-        <div className=" flex mt-24 ml-60 mr-60 bg-white text-white pb-4">
+        <div className=" flex mt-24 ml-60 mr-60 bg-gray-100 text-white pb-4">
 
    <div className='ml-9'>
    {/* Close button */}

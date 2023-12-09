@@ -14,16 +14,17 @@ function App() {
   return (
     <>
     <BrowserRouter>
-     <Header/>
+    <Header/>
      
      <Routes>
      <Route path='/' element={
       <>
+      
        <Body/>
      <Posts/>
       </>
      }/>
-    <Route path='/signLogin' element={<SignLogin/>}/> 
+    <Route path='/SignLogin' element={<SignLogin/>}/> 
      </Routes>
      </BrowserRouter>
     </>

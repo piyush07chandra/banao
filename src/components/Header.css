@@ -5,13 +5,9 @@
 .form{
     margin-left: 16rem;
 }
-/* .nav{
-    overflow: hidden;
-      position: fixed;
-      top: 0;
-      width: 100%;
-} */
+
 .navbar {
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -1,4 +1,5 @@
 import { Navbar, Nav, NavDropdown,Form, FormControl, Button } from 'react-bootstrap';
+import {Link} from 'react-router-dom'
 import './Header.css'
 
 const Header = () => {
@@ -6,7 +7,7 @@ const Header = () => {
     <>
  
  <Navbar className='navbar fixed' collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Navbar.Brand className='flex' href="/"><span className='text-green-200'>ATG.W</span><img src='/Union 1.png'/>RLD</Navbar.Brand>
+     <Link to="/"><Navbar.Brand className='flex' ><span className='text-green-200'>ATG.W</span><img src='/Union 1.png'/>RLD</Navbar.Brand></Link> 
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="">
@@ -19,7 +20,7 @@ const Header = () => {
       <Button variant="outline-success">Search</Button>
     </Form>
           <NavDropdown className="create-act" title="create account its free" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="/signLogin">sign Up</NavDropdown.Item>
+            <Link to='/SignLogin' >Sign Up</Link>
             
           </NavDropdown>
         </Nav>
