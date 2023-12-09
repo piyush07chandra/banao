@@ -14,8 +14,8 @@ const Signlogin = () => {
   return (
     <>
         {isLoggedIn?(
-      <div className=" flex mt-24 ml-60 mr-60 bg-gray-100 text-white pb-4">          
-          <div className='ml-9'>
+      <div className=" flex mt-24  bg-gray-100 text-white pb-4">          
+          <div className=''>
           {/* Close button */}
             <form className='mt-14' >
               <input className='dialog-imput w-full text-black' placeholder='Username' name='Username'  />
@@ -30,9 +30,9 @@ const Signlogin = () => {
       )
       :
       (
-        <div className=" flex mt-24 ml-60 mr-60 bg-gray-100 text-white pb-4">
+        <div className=" flex mt-24  bg-gray-100 text-white pb-4">
 
-   <div className='ml-9'>
+   <div className=''>
    {/* Close button */}
      <form className='mt-14' >
        <input className='dialog-imput w-full text-black' placeholder='Username' name='Username' />

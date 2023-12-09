@@ -7,7 +7,7 @@ const Header = () => {
     <>
  
  <Navbar className='navbar fixed' collapseOnSelect expand="lg" bg="dark" variant="dark">
-     <Link to="/"><Navbar.Brand className='flex' ><span className='text-green-200'>ATG.W</span><img src='/Union 1.png'/>RLD</Navbar.Brand></Link> 
+      <Navbar.Brand className=''><Link className='flex' to='/'><span className='text-green-200'>ATG.W</span><img src='/Union 1.png'/>RLD</Link></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="">
@@ -20,7 +20,8 @@ const Header = () => {
       <Button variant="outline-success">Search</Button>
     </Form>
           <NavDropdown className="create-act" title="create account its free" id="collasible-nav-dropdown">
-            <Link to='/SignLogin' >Sign Up</Link>
+            
+            <NavDropdown.Item><Link to='/SignLogin' >sign Up</Link></NavDropdown.Item>
             
           </NavDropdown>
         </Nav>
