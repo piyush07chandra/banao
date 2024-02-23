@@ -1,23 +1,43 @@
 .image-bar {
     position: relative;
-    height: 400px; /* Set the desired height for your image bar */
+    height: 440px; 
     background-image: url('/Rectangle 2.png');
     background-size: cover;
     background-position: center;
-    color: #fff; /* Set the text color */
-    text-align:center ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-repeat: no-repeat;
+    color: #fff; 
+  }
+  .grp{
+    margin-left: 15rem;
+    margin-top: 8px;
+    border: 1px solid white;
+    height: 40px;
+    width: 120px;
+  }
+  .cls-btn{
+    margin-top: -21rem;
+  }
+  .phone-form{
+    height: 95%;
   }
   
-  .overlay {
-    padding: 20px;
-    border-radius: 10px;
-    font-weight: 700;
+  /* for tablet screen */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .pnk-btn{
+    margin-left: 44rem;
+    margin-top: 5rem;
   }
-  
-  .overlay-text {
-    margin: 0;
-    font-size: 24px; /* Set the font size for the overlay text */
+  .cls-btn{
+    margin-left: 46rem;
   }
+}
+/* for mobile view */
+@media (max-width: 767px) {
+  .pnk-btn{
+    margin-left: 23rem;
+    margin-top: 5rem;
+  }
+  .cls-btn{
+    margin-left: 25rem;
+  }
+}

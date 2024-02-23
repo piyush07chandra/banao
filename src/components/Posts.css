@@ -1,23 +1,22 @@
 .views{
- margin-left: 30rem;
+ margin-left: 10rem;
 }
 .wrp{
-    margin-left: 38rem;
+    margin-left: 29rem;
 }
-.dots{
-    margin-left: 45rem;
-    margin-top: -5rem;
+.f-text{
+    width: 36rem;
 }
 .dropdown-content{
     margin-left: 80%;
     display: block;
     box-shadow: 2px 2px 2px 2px rgb(146, 145, 145);
-    background-color: rgb(160, 160, 160);
+    background-color: rgb(202, 200, 200);
     position: absolute;
     z-index: 1;
 }
 .card{
-    width: 90%;
+    width: 692px;
     margin-left: 2rem;
 }
 .search-input{
@@ -29,6 +28,10 @@
     outline: none; 
     border-bottom: 2px solid #080808; 
   }
+  .visit-button{
+    border: 1px solid black;
+    
+  }
 
 
 /* for tablet screen */
@@ -36,17 +39,20 @@
     .card{
        margin: 2.5rem;
     }
+    .f-text{
+        width: 20rem;
+    }
     .wrp{
         margin-left: 18rem;
     }
     .views{
-        margin-left: 30rem;
+        margin-left: 10rem;
        }
        div.filter{
         display:none;
      }
      .dots{
-        margin-left: 48rem;
+        margin-left: 38rem;
      }
      .dropdown-content{
         margin-left: 87%
@@ -60,7 +66,11 @@
 @media (max-width: 767px) {
     .card{
         margin: 1rem;
+        width: 360px;
      }
+     .f-text{
+        width:20rem;
+    }
     .wrp{
         margin-left: 0rem;
     }
@@ -68,7 +78,7 @@
         display: none;
      }
     .views{
-        margin-left: 5rem;
+        margin-left: 1rem;
         }
         .dots{
             margin-left: 18rem;
@@ -79,7 +89,4 @@
          .search-input{ 
              display: none; 
             }
-}
-.card{
-    box-shadow: 2px 2px 2px 2px rgb(146, 145, 145);
 }

@@ -1,30 +1,22 @@
-.create-act{
-    margin-left: 15rem;
+.atg{
+   height:24px ;
+   width:162.57px ;
+   margin-left:72px ;
+   margin-top:24px ; 
 }
-
-.form{
-    margin-left: 16rem;
+.nv{
+   background-color: white;
+   display: block; 
 }
-
-.navbar {
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: #01324E;
-    color: #fff;
-    height: auto;
-    position: fixed;
-    z-index: 1000;
-    width: 100%;
-  }
-
-@media (max-width: 767px) {
-    .create-act{
-        margin-left: 0%;
-    }
-    .form{
-        margin-left: 0rem;
-    }
+.frm{
+   width:736px ;
+   height:457px ;
+}
+.cancle-button{
+   margin-top: -30rem;
+   margin-left: -8px;
+}
+.first{
+   height: 403px;
+   width: 320px;
 }
